@@ -1,6 +1,6 @@
 # Array Operations
 
-One key thing to keep in mind everytime we work with React is the concept of inmutability wich means that in order to re-render things we need to pass it a new data and normaly we do this by copying the data, modify it and then return it. Luckly javascript gut us covered by providing some methods to work with arrays that allow us to do our operations and return a new array.
+One key thing to keep in mind every time we work with React is the concept of immutability which means that in order to re-render things we need to pass it on a new data and normally we do this by copying the data, modifying it, and then return it. Luckily javascript gut us covered by providing some methods to work with arrays that allow us to do our operations and return a new array.
 
  - Map
  - Filter
@@ -25,7 +25,7 @@ Note in the example above that we go through the whole array of data and convert
 
 ## Filter
 
-The filter method will return an array with the items of the original array that pass a test specified in a callback function, this is very usefull to remove some items from the original array. Take for example.
+The filter method will return an array with the items of the original array that pass a test specified in a callback function, this is very useful to remove some items from the original array. Take for example.
 
     const champions = [ 
         {
@@ -55,7 +55,7 @@ The filter method will return an array with the items of the original array that
 
 ## Spread
 
-The spread operator (...) allow us to "expand" an array. This is very usefull when creating a new array and adding it a new Item, remember that is very important to create a modified copy of the data and not mutating it directly hence a push won't do the job.
+The spread operator (...) allows us to "expand" an array. This is very useful when creating a new array and adding it to a new Item, remember that is very important to create a modified copy of the data and not mutate it directly hence a push won't do the job.
 
     const players = [
         {
@@ -84,5 +84,5 @@ The spread operator (...) allow us to "expand" an array. This is very usefull wh
         }
     ]
 
-    and the two arrays will be different, players remains untouched and we got ourserlfs a new array by spreading the players array and adding at the end a new item.
+    and the two arrays will be different, players remain untouched and we got ourserlves a new array by spreading the player's array and adding at the end a new item.
 
